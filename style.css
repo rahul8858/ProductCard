@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+.card{
+    width: 36%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card img{
+    height: 100%;
+    width: 50%;
+}
+
+.card aside{
+    width: auto;
+    height: 100%;
+    padding: 20px 25px;
+    width: 20vw;
+    background-color:hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+    color: hsl(212, 21%, 14%);
+    padding: 4px 0;
+    line-height: 1.1;
+}
+
+h4{
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    color: hsl(228, 12%, 48%);
+    overflow: hidden;
+}
+
+span{
+    font-size: 11px;
+    display: inline-block;
+    width: fit-content;
+}
+
+h4{
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#price{
+    display: inline-block;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    margin-right: 12px;
+}
+
+article{
+    font-size: 14px;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
+    margin: 4px 0;
+}
+
+.card aside button{
+    width: 100%;
+    height: 6vh;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 4.5vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.card aside button:hover{
+    cursor: pointer;
+    background-color: hsl(158, 45%, 22%);
+}
+
+@media screen and (min-width: 375px) {
+    .card{
+        height: 90%;
+        width: 90%;
+        flex-direction: column;
+        top: 5%;
+        left: 5%;
+    }
+    .card img{
+        height: 40%;
+        width: 100%;
+        src: url('./images/image-product-mobile.jpg');
+    }
+    .card aside{
+        width: 100%;
+        height: 60%;
+    }
+    svg{
+        margin: 0 8px;
+    }
+    .card aside button{
+        justify-content: center;
+    }
+    h1{
+        font-size: 36px;
+    }
+    span{
+        font-size: 12px;
+    }
+}
