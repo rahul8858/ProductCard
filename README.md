@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/rahul8858/ProductCardgit)
+- Solution URL: [Github Repo](https://github.com/rahul8858/ProductCard)
 - Live Site URL: [Live Link](https://rahul8858.github.io/ProductCard/)
 
 
